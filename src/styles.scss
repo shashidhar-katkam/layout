@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// @import url( 'https://fonts.googleapis.com/css?family=Roboto:400,700|Material+Icons');
+
+.error-border {
+  border-left: 4px solid red !important;
+}
+
+.error-msg{
+  margin:0px !important;
+  font-size: 14px !important;
+}
+
+.cursor:hover{
+ cursor: pointer;
+}
+
+.show{
+  display: block !important;
+}
+
+.hide{
+  display: none !important;
+}
+
+.form-control-sm{
+  height:calc(1.2em + .5rem + 2px);
+  padding:.25rem .5rem;
+  font-size:.875rem;
+  line-height:1.5;
+  border-radius:.2rem
+}
+
+body {
+  // background-image: url("http://localhost:7777/dontdelete/285.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.sp-clear {
+  clear:both;
+}
+
+.sp-show {
+  display: block !important;
+}
+
+.sp-hide {
+    display: block !important;
+}
+
+.success-btn{
+  text-align: center;left:30%; position:relative; min-width: 100px;
+}
+
+@media screen and (max-height: 450px) {
+
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

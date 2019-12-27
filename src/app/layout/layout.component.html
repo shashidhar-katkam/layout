@@ -1,0 +1,24 @@
+<div class="container container-body">
+    <div class="sidenav-head">
+    <div class="sidenav" [ngClass]="{ 'mySidenavHeadShow' : isNavbarShow}">
+      <div class="sidenav-content">
+      <h3 class="d">Hello</h3>
+        <a  class="closebtn" (click)="hideNav()">&times;</a>
+        <a class="nav-item-link" routerLink="/d/inbox"  style="background-color:#2d4756; color:white;"> <mat-icon class="nav-item-icons" >group</mat-icon> <span class="nav-item">Profiles </span></a>
+        <a class="nav-item-link" routerLink="/d/important" ><mat-icon >favorite_border</mat-icon>  <span class="nav-item">Favorite </span></a>
+      </div>
+    </div>
+    </div>
+    <div class="main" [ngClass]="{ 'mySidenavMain' : isNavbarShow}">
+        <div class="header-top">
+            <span style="font-size:30px;cursor:pointer;float:left;margin-left: 10px;" class="openbtn" (click)="showNav()">&#9776;</span>
+            <p class="header-title">TItle</p>
+            <div class="topnav-right" style="float: right;">
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+          <router-outlet></router-outlet> 
+    </div>
+  </div>
+    
